@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import TodoList from './components/TodoList/TodoList';
 import Counter from './components/Counter/Counter';
+import TheNextMarvelMovie from './components/TheNextMarvelMovie/TheNextMarvelMovie';
 
 function App() {
   return (
     <div className="App">
       <TodoList />
       <Counter />
+      <TheNextMarvelMovie />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
