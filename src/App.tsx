@@ -4,10 +4,12 @@ import './App.css';
 import TodoList from './components/TodoList/TodoList';
 import Counter from './components/Counter/Counter';
 import TheNextMarvelMovie from './components/TheNextMarvelMovie/TheNextMarvelMovie';
+import Light from './components/Semafore/Light/Light';
 
 function App() {
   return (
     <div className="App">
+      <Light color="yellow" isOn />
       <TodoList />
       <Counter />
       <TheNextMarvelMovie />
