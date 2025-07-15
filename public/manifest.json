@@ -1,0 +1,16 @@
+{
+  "name": "Genus Teach",
+  "short_name": "Genus Teach",
+  "description": "A modern teaching platform for educators and students",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
